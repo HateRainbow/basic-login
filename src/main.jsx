@@ -5,11 +5,12 @@ import LoginForm from "./login.jsx";
 import SignupForm from "./signup.jsx";
 import App from "./App.jsx";
 import "./index.css";
+import HomePage from "./index.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <HomePage />,
     children: [
       {
         path: "/",
