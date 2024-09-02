@@ -6,11 +6,13 @@ import SignupForm from "./signup.jsx";
 import App from "./App.jsx";
 import "./index.css";
 import HomePage from "./index.jsx";
+import ErrorPage from "./error.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
