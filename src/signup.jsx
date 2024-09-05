@@ -2,7 +2,7 @@
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
-import newUserSchema from "./models/userSchema";
+import userModel from "./models/userModel";
 
 const SignupForm = () => {
   return (

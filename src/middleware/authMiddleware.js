@@ -1,10 +1,10 @@
+/* eslint-disable no-unused-vars */
 import express from "express";
 const app = express();
 app.use(express.json());
 
-export const authMiddleware = (req, res, next) => {
-  if (!req.user) {
-    return res.status(401).json({ message: "Unauthorized" });
-  }
-  next();
-};
+app.get("/", (req, res) => {});
+
+app.get("/login", (req, res) => {});
+
+app.get("/signup", (req, res) => {});
